@@ -1,0 +1,72 @@
+h1 {
+    font-size:2vw;
+}
+
+li{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    /* The image used */
+    background-image: url("./images/panorama-ridge.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.5rem;
+}
+
+.profile-title, .profile-footer {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.profile-content{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: rgb(182, 185, 185);
+}
+
+#fullstackdevsdt, #redacademyvan {
+    color: #1a1b1b;
+}
+
+#profile-image {
+    background-color: #e92525;
+    border: 2px solid #1a1b1b;
+    border-radius: 80px;
+    height: 160px;
+    margin: 0 auto 1.5rem;
+    overflow: hidden;
+    width: 160px;
+
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+#github {
+    color: #0b0c0b;
+    font-size:2vw;
+}
+
